@@ -1,0 +1,15 @@
+# Core LiveKit Agents dependencies
+livekit-agents[codecs,images,openai,deepgram,silero]
+
+# Avatar Provider Plugins (install the ones you want to use)
+# Uncomment the providers you plan to use:
+
+# livekit-plugins-simli      # Simli avatar - cloud-based with avatar ID
+# livekit-plugins-tavus      # Tavus avatar - cloud-based with persona ID
+# livekit-plugins-hedra      # Hedra avatar - cloud-based with image upload
+# livekit-plugins-bithuman   # BitHuman avatar - cloud/local options
+# livekit-plugins-anam       # Anam avatar - cloud-based with persona ID
+# livekit-plugins-bey        # Bey avatar - cloud-based with avatar ID
+
+# Additional useful plugins
+python-dotenv>=1.0.0       # For environment variable management
