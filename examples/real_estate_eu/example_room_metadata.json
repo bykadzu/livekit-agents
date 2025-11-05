@@ -1,0 +1,59 @@
+{
+  "_comment": "Example room metadata configurations for different EU markets",
+
+  "uk_agent_london": {
+    "agent_id": "uk_agent_001",
+    "name": "Sarah Johnson",
+    "company": "London Premium Properties",
+    "market": "uk",
+    "language": "en",
+    "phone": "+44 20 1234 5678",
+    "email": "sarah@londonpremium.com",
+    "mls_area": "London Zone 1",
+    "timezone": "Europe/London",
+    "calendly_link": "https://calendly.com/sarah-london",
+    "webhook_url": "https://n8n.yourdomain.com/webhook/uk-leads"
+  },
+
+  "spain_agent_barcelona": {
+    "agent_id": "es_agent_001",
+    "name": "Carlos Martínez",
+    "company": "Barcelona Premium Properties",
+    "market": "spain",
+    "language": "es",
+    "phone": "+34 931 234 567",
+    "email": "carlos@barcelonapremium.es",
+    "mls_area": "Barcelona Eixample",
+    "timezone": "Europe/Madrid",
+    "calendly_link": "https://calendly.com/carlos-barcelona",
+    "webhook_url": "https://n8n.yourdomain.com/webhook/spain-leads"
+  },
+
+  "france_agent_paris": {
+    "agent_id": "fr_agent_001",
+    "name": "Marie Laurent",
+    "company": "Paris Luxury Properties",
+    "market": "france",
+    "language": "fr",
+    "phone": "+33 1 42 12 34 56",
+    "email": "marie@parisluxury.fr",
+    "mls_area": "Paris 16ème",
+    "timezone": "Europe/Paris",
+    "calendly_link": "https://calendly.com/marie-paris",
+    "webhook_url": "https://n8n.yourdomain.com/webhook/france-leads"
+  },
+
+  "germany_agent_munich": {
+    "agent_id": "de_agent_001",
+    "name": "Klaus Weber",
+    "company": "Munich Property Group",
+    "market": "germany",
+    "language": "de",
+    "phone": "+49 89 1234 5678",
+    "email": "klaus@munichproperty.de",
+    "mls_area": "München Schwabing",
+    "timezone": "Europe/Berlin",
+    "calendly_link": "https://calendly.com/klaus-munich",
+    "webhook_url": "https://n8n.yourdomain.com/webhook/germany-leads"
+  }
+}
