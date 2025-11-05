@@ -1,0 +1,18 @@
+# Backend API Requirements
+
+# Web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# CORS and middleware
+python-multipart>=0.0.6
+
+# LiveKit Agents (for reference and validation)
+livekit-agents>=0.8.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Optional: Rich CLI support
+rich>=13.0.0

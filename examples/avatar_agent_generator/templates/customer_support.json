@@ -1,0 +1,82 @@
+{
+  "name": "Customer Support Agent",
+  "description": "A helpful AI agent for customer service and support",
+  "avatar": {
+    "provider": "simli",
+    "avatarId": "",
+    "appearance": {
+      "gender": "neutral",
+      "style": "professional",
+      "age": "adult"
+    },
+    "animations": {
+      "idle": true,
+      "talking": true,
+      "listening": true,
+      "thinking": true,
+      "gestures": true
+    }
+  },
+  "personality": {
+    "traits": ["helpful", "patient", "professional", "empathetic"],
+    "tone": "warm",
+    "energy": "medium",
+    "humor": "light",
+    "formality": "mixed"
+  },
+  "voice": {
+    "provider": "openai",
+    "voiceId": "nova",
+    "speed": 1.0,
+    "pitch": 1.0
+  },
+  "tools": [
+    {
+      "name": "search_knowledge_base",
+      "description": "Search the knowledge base for answers to customer questions",
+      "parameters": {
+        "query": {
+          "type": "str",
+          "description": "The search query"
+        }
+      },
+      "enabled": true
+    },
+    {
+      "name": "create_ticket",
+      "description": "Create a support ticket for issues that need escalation",
+      "parameters": {
+        "title": {
+          "type": "str",
+          "description": "Ticket title"
+        },
+        "description": {
+          "type": "str",
+          "description": "Ticket description"
+        },
+        "priority": {
+          "type": "str",
+          "description": "Priority: low, medium, high"
+        }
+      },
+      "enabled": true
+    },
+    {
+      "name": "check_order_status",
+      "description": "Check the status of a customer's order",
+      "parameters": {
+        "order_id": {
+          "type": "str",
+          "description": "The order ID to check"
+        }
+      },
+      "enabled": true
+    }
+  ],
+  "capabilities": {
+    "interruption": true,
+    "memory": true,
+    "multimodal": false,
+    "multilingual": false
+  }
+}
